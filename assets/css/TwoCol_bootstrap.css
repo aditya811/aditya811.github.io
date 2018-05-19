@@ -1,0 +1,74 @@
+/*sticky footer stuff*/
+/*http://ryanfait.com/html5-sticky-footer/*/
+
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+  	margin: 0;
+  	height:90%;
+    width: 100%;
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-image: url("../images/new_year_background.png");
+    background-repeat: repeat;
+}
+
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+
+footer, .push {
+    margin: 10px 0;
+	height: 55px; 
+}
+/*end sticky footer stuff*/
+
+header {
+	width: 960px;
+	background: #fff;
+}
+
+
+footer {
+	position: absolute;
+    bottom: 100;
+    width: 100%;
+ 	padding: 20px 0;
+	background: #666;
+	color: #fff;
+	clear: both;
+	border-top: 8px solid #4aaaa5;
+	font-size: 12px;
+	text-align: center;
+}
+
+nav.navbar ul a {
+  text-transform: uppercase;
+  color:#fff;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+nav.navbar ul a:hover {
+  text-decoration: underline;
+}
+ 
+.btn-primary {
+    background: #4aaaa5;
+    color: #ffffff;
+}
+
+.auth-image {
+	width: 200px;
+	height: auto;
+	margin-top: 10px;
+	float: left;
+	margin-right: 25px;
+}
